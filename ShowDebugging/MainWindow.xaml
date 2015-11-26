@@ -1,0 +1,14 @@
+﻿<Window x:Class="ShowDebugging.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShowDebugging"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btnStepInto" Content="StepInto" Margin="217,19,217,0" VerticalAlignment="Top" FontWeight="Bold" Click="btnStepInto_Click" />
+        <Button x:Name="btnStepOut" Content="StepOut" Margin="217,49,217,0" VerticalAlignment="Top" FontWeight="Bold" Click="btnStepOut_Click" />
+        <TextBox x:Name="resultsTextBox" HorizontalAlignment="Left" Margin="1,73,1,1" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="250" FontFamily="Lucida Console" VerticalScrollBarVisibility="Auto"/>
+    </Grid>
+</Window>
